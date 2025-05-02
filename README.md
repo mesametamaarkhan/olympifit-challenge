@@ -29,6 +29,8 @@ It explains how to navigate quests, train, and unlock the final Olympic event.
 ### Step 1: Install SFML
 
 ```bash
+git clone https://github.com/mesametamaarkhan/olympifit-challenge.git
+cd olympifit-challenge
 sudo apt update
 sudo apt install libsfml-dev
 g++ src/main.cpp -o olympifit -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
