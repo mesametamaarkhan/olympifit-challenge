@@ -33,5 +33,5 @@ git clone https://github.com/mesametamaarkhan/olympifit-challenge.git
 cd olympifit-challenge
 sudo apt update
 sudo apt install libsfml-dev
-g++ src/main.cpp -o olympifit -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+g++ main.cpp -o olympifit -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 ./olympifit
